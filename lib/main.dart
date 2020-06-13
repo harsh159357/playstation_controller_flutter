@@ -17,9 +17,7 @@ class _WebViewExampleState extends State<WebViewExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('PlayStation Controller'),
-      ),
+      extendBodyBehindAppBar: true,
       body: Builder(builder: (BuildContext context) {
         return WebView(
           initialUrl: 'https://harsh159357.github.io/app_demos/index.html',
